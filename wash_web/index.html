@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es-CO" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> v
+  <!--Tags SEO-->
+  <meta name="author" content="Wash.WEB">
+  <meta name="description" content="Aplicativo para proyecto Sena, I.E San José ">
+  <meta name="keywords" content="lavadero,Lavadero,LAVADERO">
+  <meta name="MobileOptimized" content="width">
+  <meta name="HandhleFriendly" content="true">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar" content="black-traslucent">
+
+
+  <!--favicon and title-->
+
+  <title>Wash.WEB</title>
+  <link rel="icon" type="image/x-icon" href="media/img/logo.jpg" width="80px;" alt="Avatar Logo" style="width:60px;"
+    class="rounded-pill" />
+  <link rel="apple-touch-icon" type="image/png" href="media/img/logo.jpg" width="100px" />
+
+
+<link rel="stylesheet" href="assets\css\bootstrap.css">
+  <!--Styles  Bootstrap 5.3.3-->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <header>
+    <nav style="height:100px;" class="navbar navbar-expand-sm bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="media/img/logo.jpg" alt="Avatar Logo" style="width:80px;" class="rounded-pill">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 30px;">Registros:  </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 30px;" href="app/">Administrador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 30px;" href="app/inicioclien.php">Cliente</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 30px;" href="app/iniciotrab.php">Trabajador</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <main>
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide my-5 py-3" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button aria-autocomplete="both" type="button" data-bs-target="#demo" data-bs-slide-to="0"
+          class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/uno.jpg" alt="logo" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/dos.jpg" alt="Auto" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="img/tres.jpg" alt="lava" class="d-block w-100">
+        </div>
+      </div>
+
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+
+
+    <!--seccion del proyecto-->
+    <section class="container py-5 text-righ">
+      <div class="row">
+        <div class="col-sm-6">
+          <div>
+          <h1><b>¿Quiénes somos?</b></h1>
+          <p>
+            <u><b> Wash.WEB</b></u> es un aplicativo para mejorar el servicio de recepcion de clientes en un autolavado
+            con el propósito de brindar un servicio más seguro y cómodo para el cliente.<br><br>
+
+            En este sistema está el administrador que es el encargado de registrar y asignar los
+            trabajadores con sus respectivos perfiles, también es el encargado de organizar los horarios de las citas para
+            que este sea un sistema muy ordenado. En la aplicación aparecerán precios de el lavado y el tiempo que se
+            demora el lavado, localización de el autolavado por GPS.  
+          </p>
+          </div>
+        </div>
+        <div class="col-sm-6 py-5 my-auto">
+          <img src="assets/img/grupo.png" alt="logo" style="width:250px" class="rounded-pill mx-auto d-block" />
+        </div>
+    </section>
+
+    <!--seccion del proyecto introduccion-->
+    <section class="container py-5 text-righ">
+      <div class="row">
+        <div class="col-sm-6 py-2 my-auto">
+          <img src="assets/img/escritura-creativa.png" alt="pole.png" style="width:250px" class="rounded-pill mx-auto d-block" />
+        </div>
+        <div class="col-sm-6">
+          <div>
+          <h1><b>Introducción</b></h1>
+          <p>
+            El objetivo de este proyecto es crear un aplicativo funcional el cual permita mejorar la recepcion en un
+            autolavado, y a su vez, aumentar la comodidad del cliente a la hora de agendar una cita
+            mejorando aspectos de sguridad en el proceso evitando que se pierda el orden por motivos de soborno.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--seccion del proyecto problema y justificación-->
+    <section class="container py-5 text-right">
+      <div class="row">
+        <div class="col-sm-6">
+          <div >
+          <h1><b>Problema y justificación</b></h1>
+          <p>
+          El problema que se busca solucionar es la la falta de orden en un lavadero de vehiculos lo que hace que este sistema se vuelva lento, desordenado
+          y en los peores casos poco seguro para el estado del vehiculo, nuestro aplicativo se utilizara en un lavadero en especifico 
+          con el proposito de que el lavadero aumente las medidas de organizacion ademas de mejorar los estandares de seguridad de los vehivulos.
+        </div>
+        <div class="col-sm-6 py-5 my-auto">
+          <img src="assets/img/" alt="justificacón_signo" style="width:250px" class="rounded-pill mx-auto d-block" />
+        </div>
+        </div>
+    </section>
+
+    <!--seccion del proyecto objetivos-->
+    <section class="container py-5 text-righ">
+      <div class="row">
+        <div class="col-sm-6 py-2 my-auto"></div>
+          <img src="assets/img/diana.png" alt="obje.png" style="width:250px" class="rounded-pill mx-auto d-block" />
+        </div>
+        <div>
+        <div class="col-sm-6">
+          <h1><b>Objetivos</b></h1>
+          <h3>General</h3>
+          <p>Crear una app con el propósito de aumentar
+          la comodidad en la recepción de un autolavado y aumentar medidas de seguridad.</p>
+          <h3>Específicos</h3>
+          <ul>
+            <li>Mejorar la seguridad de un autolavado.</li>
+            <li>Mostrar la ubicación del autolavado.</li>
+            <li>Agendar una cita con el trabajador del autolavado.</li>
+          </ul>
+        </div>
+        </div>
+    </section>
+      <footer>
+        <!-- Copyright -->
+        <div class="borde">
+          <div class="text-center p-3" style="background-color: rgb(128, 190, 206);">
+            © 2024 Copyright:
+            <a class="text-light" href="#">Wash.WEB</a>
+          </div>
+        </div>
+      </footer>
+
+      <script type="text/javascript" src="assets/js/bootstrap.bundle.js"></script>
+</body>
+</html>
